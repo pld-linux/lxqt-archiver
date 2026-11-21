@@ -6,20 +6,20 @@
 Summary:	A simple & lightweight desktop-agnostic Qt file archiver
 Summary(pl.UTF-8):	Prosty i lekki archiwizator plików niezależny od środowiska graficznego
 Name:		lxqt-archiver
-Version:	1.4.0
+Version:	1.5.0
 Release:	1
 License:	GPL-2.0-or-later
 URL:		https://lxqt.github.io/
 Source0:	https://github.com/lxqt/lxqt-archiver/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	8be174a519f9fe5512a4809671b040ce
+# Source0-md5:	947e8520591175f765131be96174852d
 Source1:	%{name}.appdata.xml
 BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	appstream-glib
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	glib2-devel >= 1:2.50.0
 BuildRequires:	json-glib-devel
-BuildRequires:	libfm-qt-devel >= 2.4.0
-BuildRequires:	lxqt-build-tools >= 2.4.0
+BuildRequires:	libfm-qt-devel >= 2.5.0
+BuildRequires:	lxqt-build-tools >= 2.5.0
 BuildRequires:	perl-base
 BuildRequires:	qt6-linguist >= %{qtver}
 BuildRequires:	xz-devel
